@@ -1,0 +1,57 @@
+﻿Mean of X (House Size): 1660.00 sq ft
+Mean of y (Price):      ₹84.50 lakhs
+
+Slope (m):     0.053221
+Intercept (b): -3.846999
+
+--- Prediction Results ---
+House Size (sqft)      Actual Price (₹L)      Predicted Price (₹L)  
+------------------------------------------------------------------
+600                    30.0                   28.09                 
+800                    40.0                   38.73                 
+1000                   50.0                   49.37                 
+1200                   60.0                   60.02                 
+1500                   75.0                   75.98                 
+1800                   90.0                   91.95                 
+2000                   100.0                  102.60                
+2200                   110.0                  113.24                
+2500                   130.0                  129.21                
+3000                   160.0                  155.82                
+
+Mean Squared Error (MSE):  4.5809
+Root Mean Squared Error:   2.1403 lakhs
+
+Predicted price for 1600 sq ft house: ₹81.31 lakhs
+
+--- ASCII Scatter: Actual vs Predicted ---
+Price
+(Lakhs)
+  600 sqft | Actual: ██████                              30
+         | Predicted: ░░░░░░                              28.1
+
+  800 sqft | Actual: ████████                            40
+         | Predicted: ░░░░░░░░                            38.7
+
+ 1000 sqft | Actual: ██████████                          50
+         | Predicted: ░░░░░░░░░░                          49.4
+
+ 1200 sqft | Actual: ████████████                        60
+         | Predicted: ░░░░░░░░░░░░                        60.0
+
+ 1500 sqft | Actual: ███████████████                     75
+         | Predicted: ░░░░░░░░░░░░░░░                     76.0
+
+ 1800 sqft | Actual: ██████████████████                  90
+         | Predicted: ░░░░░░░░░░░░░░░░░░                  92.0
+
+ 2000 sqft | Actual: ████████████████████                100
+         | Predicted: ░░░░░░░░░░░░░░░░░░░░░               102.6
+
+ 2200 sqft | Actual: ██████████████████████              110
+         | Predicted: ░░░░░░░░░░░░░░░░░░░░░░░             113.2
+
+ 2500 sqft | Actual: ██████████████████████████          130
+         | Predicted: ░░░░░░░░░░░░░░░░░░░░░░░░░░          129.2
+
+ 3000 sqft | Actual: ████████████████████████████████    160
+         | Predicted: ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░     155.8

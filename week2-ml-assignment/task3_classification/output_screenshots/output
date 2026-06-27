@@ -1,0 +1,29 @@
+﻿Dataset shape: (200, 5)
+Class distribution → No Default: 132, Default: 68
+
+========== MODEL EVALUATION ==========
+  Accuracy  : 80.00%
+  Precision : 100.00%
+  Recall    : 42.86%
+  F1 Score  : 60.00%
+
+--- Confusion Matrix ---
+  TN=26  FP=0
+  FN=8  TP=6
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+  No Default       0.76      1.00      0.87        26
+     Default       1.00      0.43      0.60        14
+
+    accuracy                           0.80        40
+   macro avg       0.88      0.71      0.73        40
+weighted avg       0.85      0.80      0.77        40
+
+--- Feature Coefficients (Impact on Default) ---
+  Annual Income       : -0.6476  ↓ Reduces Risk
+  Loan Amount         : +0.1572  ↑ Increases Risk
+  Credit Score        : -1.8498  ↓ Reduces Risk
+  Employment Yrs      : -0.5599  ↓ Reduces Risk
+  Existing Debt       : -0.3445  ↓ Reduces Risk
